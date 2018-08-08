@@ -5,6 +5,7 @@ const serveIndex= require('serve-index');
 //Requiring all the modules we needed
 
 const User = require('./models/User');
+const Post = require('./models/post');
 const dbConnect = require('./config/database');
 //import the all files
 
